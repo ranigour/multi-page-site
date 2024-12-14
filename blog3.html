@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style>.blog{
+    padding: 5rem 0 2.5rem 0;
+}
+.blog .container .titil{
+    background-color: antiquewhite;
+}
+.blog  .text h1 {
+    background-color: aliceblue;
+    width: 70%;
+    margin: 1.5rem auto;
+    text-align: center;
+}
+.blog .item{
+    background-color: aliceblue;
+    margin: 1rem 0;
+    background: var(--nero);
+    border-radius: 5px;;
+    overflow: hidden;
+}
+.blog .item .item-img{
+    border-bottom: 8px solid var(--green);
+    overflow: hidden;
+}
+.blog .item .item-img img{
+    transition: var(--transition);
+}
+.blog .item .item-img:hover img{
+    transform: scale(1.2);
+}
+.blog .item .item-content {
+    background-color: antiquewhite;
+    padding: 1.5rem;
+}
+.blog .item .item-content span{
+    color: var(--green);
+    text-transform: uppercase;
+}
+.blog .item .item-content span .fas{
+    font-size: 0.85rem;
+}
+.blog .item .item-content h2{
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.blog .pagination{
+    margin: 3rem 0 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog .page-link{
+    background: var(--nero);
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 0 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 700;
+    transition: var(--transition);
+}
+
+.blog .page-link:nth-child(2){
+    background: var(--green);
+}
+.blog .page-link:hover{
+    background: var(--green);
+}</style>
+<link rel="stylesheet" href="ST.CSS">
+    
+
+    
+
+<!--font awesome-->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+
+
+
+</head>
+<body>
+<!-- header section starts  -->
+<header class="header">
+  <a href="" class="logo"><span>Event</span>planner</a>
+
+  <nav class="navbar">
+    <a href="HOME.HTML">Home</a>
+    <a href="SERVICE.html">Service</a>
+    <a href="About.html">About</a>
+    <a href="gallary.html">Gallery</a>
+    <a href="#price">price</a>
+    <a href="EVENT.html">Event</a>
+    <a href="Contact us.html">Contact</a>
+    <a href="Contact.html">Ragister</a>
+  </nav>
+
+  <div id="menu-bars" class="fas fa-bars"></div>
+</header>
+
+   
+</header>
+<br>
+<br>
+<br>
+
+    <!-- blog page -->
+    <section class = "blog container">
+        <div class = "title">
+          <center><h1 >Harmoni</h1>
+          </div>
+            </span><h1>Latest blog</h1></center>
+          </div>
+        </div>
+  
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, fugiat. Ipsa voluptatem, aliquam repellendus tenetur ex in commodi nam possimus? Consequuntur iste culpa mollitia quae quo eum magnam molestias eius?</h2>
+        <div class = "row">
+          <div class = "item">
+            <div class = "item-img"> <img src = "https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=400" alt = "blog image" height="30%" width="30%">
+            </div>
+            <div class = "item-content">
+              <span>june 22, 2022 &nbsp; admin
+                <i class = "fas fa-comment-alt"></i> 3
+              </span>
+              <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, aliquam</h2>
+              <p class = "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptas sint architecto, repellendus quae facilis eaque aperiam fugiat vel, similique necessitatibus tenetur saepe commodi repudiandae perferendis error eligendi omnis iste?</p>
+              <button type = "button" class = "btn">read more</button>
+            </div>
+          </div>
+  
+          <div class = "item">
+            <div class = "item-img">
+              <img src = "https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg?auto=compress&cs=tinysrgb&w=400" alt = "blog image" height="30%" width="30%">
+            </div>
+            <div class = "item-content">
+              <span>june 22, 2022 &nbsp; admin
+                <i class = "fas fa-comment-alt"></i> 3
+              </span>
+              <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, aliquam</h2>
+              <p class = "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptas sint architecto, repellendus quae facilis eaque aperiam fugiat vel, similique necessitatibus tenetur saepe commodi repudiandae perferendis error eligendi omnis iste?</p>
+              <button type = "button" class = "btn">read more</button>
+            </div>
+          </div>
+  
+          <div class = "item">
+            <div class = "item-img">
+              <img src = "https://images.pexels.com/photos/1395964/pexels-photo-1395964.jpeg?auto=compress&cs=tinysrgb&w=400" alt = "blog image" height="30%"  width="30%">
+            </div>
+            <div class = "item-content">
+              <span>june 22, 2022 &nbsp; admin
+                <i class = "fas fa-comment-alt"></i> 3
+              </span>
+              <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, aliquam</h2>
+              <p class = "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptas sint architecto, repellendus quae facilis eaque aperiam fugiat vel, similique necessitatibus tenetur saepe commodi repudiandae perferendis error eligendi omnis iste?</p>
+              <button type = "button" class = "btn">read more</button>
+            </div>
+          </div>
+  
+          <div class = "item">
+            <div class = "item-img">
+              <img src = "https://images.pexels.com/photos/787961/pexels-photo-787961.jpeg?auto=compress&cs=tinysrgb&w=400" alt = "blog image" height="30%" width="30%">
+            </div>
+            <div class = "item-content">
+              <span>june 22, 2022 &nbsp; admin
+                <i class = "fas fa-comment-alt"></i> 3
+              </span>
+              <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, aliquam</h2>
+              <p class = "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptas sint architecto, repellendus quae facilis eaque aperiam fugiat vel, similique necessitatibus tenetur saepe commodi repudiandae perferendis error eligendi omnis iste?</p>
+              <button type = "button" class = "btn">read more</button>
+            </div>
+          </div>
+  
+          <div class = "item">
+            <div class = "item-img">
+              <img src = "https://images.pexels.com/photos/2078071/pexels-photo-2078071.jpeg?auto=compress&cs=tinysrgb&w=400" alt = "blog image" height="30%" width="30%">
+            </div>
+            <div class = "item-content">
+              <span>june 22, 2022 &nbsp; admin
+                <i class = "fas fa-comment-alt"></i> 3
+              </span>
+              <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, aliquam</h2>
+              <p class = "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptas sint architecto, repellendus quae facilis eaque aperiam fugiat vel, similique necessitatibus tenetur saepe commodi repudiandae perferendis error eligendi omnis iste?</p>
+              <button type = "button" class = "btn">read more</button>
+            </div>
+          </div>
+  
+          <div class = "item">
+            <div class = "item-img">
+                <img src = "https://images.pexels.com/photos/668137/pexels-photo-668137.jpeg?auto=compress&cs=tinysrgb&w=400" alt = "blog image" height="30%" width="30%">
+            </div>
+            <div class = "item-content">
+              <span>june 22, 2022 &nbsp; admin
+                <i class = "fas fa-comment-alt"></i> 3
+              </span>
+              <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, aliquam</h2>
+              <p class = "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, voluptas sint architecto, repellendus quae facilis eaque aperiam fugiat vel, similique necessitatibus tenetur saepe commodi repudiandae perferendis error eligendi omnis iste?</p>
+              <button type = "button" class = "btn">read more</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class = "pagination">
+          <a href = "#" class = "page-link">1</a>
+          <a href = "#" class = "page-link">2</a>
+          <a href = "#" class = "page-link">3</a>
+          <a href = "#" class = "page-link">4</a>
+        </div>
+      </section>
+       <!-- footer section starts  -->
+    <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> bangalore </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> hyderabad </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> delhi </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> kolkata </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> chennai </a>
+          </div>
+  
+          <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> price </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reivew </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+          </div>
+  
+          <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> kanasu@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> kanasuind@gmail.com </a>
+            <a href="#">
+              <i class="fas fa-map-marker-alt"></i> bangalore, india - 560054
+            </a>
+          </div>
+  
+          <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin-in"></i> linkedin </a>
+          </div>
+        </div>
+  
+        <div class="credit">
+          created by <span>Tivotal</span> | all rights reserved
+        </div>
+      </section>
+  
+      <!-- theme toggler  -->
+      <div class="theme-toggler">
+        <div class="toggle-btn">
+          <i class="fas fa-cog"></i>
+        </div>
+  
+        <h3>choose color</h3>
+  
+        <div class="buttons">
+          <div class="theme-btn" style="background: #ccff33"></div>
+          <div class="theme-btn" style="background: #d35400"></div>
+          <div class="theme-btn" style="background: #f39c12"></div>
+          <div class="theme-btn" style="background: #1abc9c"></div>
+          <div class="theme-btn" style="background: #3498db"></div>
+          <div class="theme-btn" style="background: #9b59b6"></div>
+        </div>
+      </div>
+  
+      
+    </body>
+  </html>
+</body>
+</html>

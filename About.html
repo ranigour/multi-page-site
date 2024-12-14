@@ -1,0 +1,671 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="S.css">
+    <style> .our-management-section .management-item .item-title {
+        margin-bottom: 30px; }
+        .our-management-section .management-item .item-title .title-text {
+          margin: 0px;
+          display: table;
+          font-weight: 900;
+          position: relative;
+          padding-right: 60px;
+          font-size: 24px; }
+          .our-management-section .management-item .item-title .title-text:after {
+            right: 0;
+            bottom: 6px;
+            height: 5px;
+            width: 50px;
+            content: '';
+            position: absolute;
+            background-color: #ffbe30; }
+      
+      .award-section .company-age {
+        height: 620px;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center; }
+        .award-section .company-age .banner-img {
+          top: 50%;
+          left: 50%;
+          width: 390px;
+          height: 430px;
+          overflow: hidden;
+          position: absolute;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+      
+      .award-section .awaed-item-area {
+        position: relative; }
+        .award-section .awaed-item-area:before {
+          top: 0;
+          bottom: 0;
+          left: 13px;
+          width: 2px;
+          content: '';
+          height: 100%;
+          position: absolute;
+          background-color: #878787; }
+        .award-section .awaed-item-area .arrow-up,
+        .award-section .awaed-item-area .arrow-down {
+          left: 0px;
+          z-index: 2;
+          position: absolute;
+          color: #878787;
+          font-size: 30px; }
+        .award-section .awaed-item-area .arrow-up {
+          top: -22px; }
+        .award-section .awaed-item-area .arrow-down {
+          bottom: -22px; }
+        .award-section .awaed-item-area .awaed-wrapper {
+          max-height: 425px;
+          overflow-y: scroll;
+          position: relative; }
+          .award-section .awaed-item-area .awaed-wrapper .awaed-item {
+            padding: 30px 0px;
+            position: relative;
+            padding-left: 120px; }
+            .award-section .awaed-item-area .awaed-wrapper .awaed-item .awaed-content .awaed-title {
+              font-weight: 700;
+              position: relative;
+              font-size: 24px; }
+              .award-section .awaed-item-area .awaed-wrapper .awaed-item .awaed-content .awaed-title .awaed-date {
+                top: 5px;
+                left: -105px;
+                padding-left: 10px;
+                position: absolute;
+                padding-bottom: 10px;
+                color: #ffbe30;
+                font-size: 16px;
+                text-transform: uppercase; }
+                .award-section .awaed-item-area .awaed-wrapper .awaed-item .awaed-content .awaed-title .awaed-date:before {
+                  left: -6px;
+                  z-index: 1;
+                  content: '';
+                  width: 10px;
+                  bottom: -4px;
+                  height: 10px;
+                  position: absolute;
+                  border-radius: 100%;
+                  background-color: #ffbe30; }
+                .award-section .awaed-item-area .awaed-wrapper .awaed-item .awaed-content .awaed-title .awaed-date:after {
+                  left: 0;
+                  right: 0;
+                  bottom: 0;
+                  content: '';
+                  height: 2px;
+                  width: 100%;
+                  position: absolute;
+                  background-color: #878787; }
+            .award-section .awaed-item-area .awaed-wrapper .awaed-item .awaed-content p {
+              font-size: 14px; }
+      
+      .awaed-wrapper::-webkit-scrollbar {
+        display: none; }
+      
+      .service-section .team-btn {
+        padding-top: 45px; }
+      
+      .service-section .service-wrapper > ul {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        display: table;
+        border-top: 1px solid #f0f0f0;
+        border-left: 1px solid #f0f0f0; }
+        .service-section .service-wrapper > ul > li {
+          width: 25%;
+          float: left;
+          display: inline-block;
+          border-right: 1px solid #f0f0f0;
+          border-bottom: 1px solid #f0f0f0; }
+          .service-section .service-wrapper > ul > li a {
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: relative;
+            text-align: center;
+            padding: 60px 30px;
+            color: #333333;
+            background-color: #ffffff; }
+            .service-section .service-wrapper > ul > li a .icon {
+              display: table;
+              margin: 0 auto 30px;
+              -webkit-transition: all 0.3s ease-in-out;
+              -o-transition: all 0.3s ease-in-out;
+              transition: all 0.3s ease-in-out; }
+              .service-section .service-wrapper > ul > li a .icon i {
+                font-size: 54px;
+                background: -webkit-gradient (linear, left top, right bottom, from(#ff3e00), to(#ffbe30));
+                background: -webkit-linear-gradient(top left, #ff3e00, #ffbe30);
+                background: -o-linear-gradient(top left, #ff3e00, #ffbe30);
+                background: linear-gradient(to bottom right, #ff3e00, #ffbe30);
+                -webkit-transition: all 0.3s ease-in-out;
+                -o-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                -webkit-background-clip: text !important;
+                -webkit-text-fill-color: transparent !important; }
+            .service-section .service-wrapper > ul > li a .service-title {
+              width: 100%;
+              display: block;
+              font-weight: 900;
+              font-size: 18px;
+              font-family: "Roboto", sans-serif;
+              text-transform: capitalize; }
+            .service-section .service-wrapper > ul > li a .service-sub-title {
+              width: 100%;
+              display: block;
+              font-size: 14px;
+              text-transform: capitalize; }
+            .service-section .service-wrapper > ul > li a:before {
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              opacity: 0;
+              z-index: -1;
+              content: '';
+              position: absolute;
+              background: -webkit-gradient(linear, left top, right bottom, from(#ff3e00), to(#ffbe30));
+              background: -webkit-linear-gradient(top left, #ff3e00, #ffbe30);
+              background: -o-linear-gradient(top left, #ff3e00, #ffbe30);
+              background: linear-gradient(to bottom right, #ff3e00, #ffbe30);
+              -webkit-transition: all 0.3s ease-in-out;
+              -o-transition: all 0.3s ease-in-out;
+              transition: all 0.3s ease-in-out; }
+            .service-section .service-wrapper > ul > li a:hover {
+              z-index: 2;
+              color: #ffffff;
+              -webkit-transform: scale(1.03);
+              -ms-transform: scale(1.03);
+              transform: scale(1.03);
+              -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+              box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2); }
+              .service-section .service-wrapper > ul > li a:hover .icon i {
+                background: transparent !important;
+                -webkit-text-fill-color: #ffffff !important; }
+              .service-section .service-wrapper > ul > li a:hover:before {
+                opacity: 1; }
+      
+      /* about page - end
+      ===*/
+    </style>
+    
+
+    <link rel="stylesheet" href="ST.CSS">
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+</head>
+<body>
+    <!-- header section starts  -->
+    <header class="header">
+        <a href="#" class="logo"><span>Event</span>planner</a>
+  
+        <nav class="navbar">
+            <a href="HOME.HTML">Home</a>
+            <a href="SERVICE.html">Service</a>
+            <a href="About.html">About</a>
+            <a href="gallary.html">Gallery</a>
+            <a href="#price">price</a>
+            <a href="EVENT.html">Event</a>
+            <a href="Contact us.html">Contact</a>
+            <a href="Contact.html">Ragister</a>
+          </nav>
+  
+        <div id="menu-bars" class="fas fa-bars"></div>
+      </header>
+    <about>
+
+
+        <section id="award-section" class="award-section sec-ptb-100 clearfix">
+			<div class="container">
+				<div class="row">
+
+					<!-- company-age - start -->
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="company-age sr-fade1" style="background-image: url(assets/images/about/company-age-bg.jpg);">
+							<div class="banner-img">
+								<img src="https://jthemes.net/themes/html/harmony-event/assets/images/about/company-banner.png" alt="Image_not_found">
+							</div>
+						</div>
+					</div>
+					<!-- company-age - end -->
+
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<!-- section-title - start -->
+						<div class="section-title text-left mb-80 sr-fade1">
+							<small class="sub-title">harmoni awaed</small>
+							<h2 class="big-title">Our Winning <strong>Awards</strong></h2>
+						</div>
+						<!-- section-title - end -->
+
+						<!-- awaed-item-area - start -->
+						<div class="awaed-item-area sr-fade2">
+							<span class="arrow-up">
+								<i class="fas fa-chevron-circle-up"></i>
+							</span>
+							<span class="arrow-down">
+								<i class="fas fa-chevron-circle-down"></i>
+							</span>
+							<div class="awaed-wrapper">
+
+								<!-- awaed-item - start -->
+								<div class="awaed-item">
+									<div class="awaed-content">
+										<h3 class="awaed-title">
+											<span class="awaed-date">aug 2015</span>
+											1st Place for Unique Events 2018
+										</h3>
+										<p class="m-0">
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam sed diam nonummy nibh euismod tincidunt.
+										</p>
+									</div>
+								</div>
+								<!-- awaed-item - end -->
+
+								<!-- awaed-item - start -->
+								<div class="awaed-item">
+									<div class="awaed-content">
+										<h3 class="awaed-title">
+											<span class="awaed-date">may 2014</span>
+											1st Winner Best New Years Events
+										</h3>
+										<p class="m-0">
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam sed diam nonummy nibh euismod tincidunt.
+										</p>
+									</div>
+								</div>
+								<!-- awaed-item - end -->
+
+								<!-- awaed-item - start -->
+								<div class="awaed-item">
+									<div class="awaed-content">
+										<h3 class="awaed-title">
+											<span class="awaed-date">dec 2013</span>
+											1st Place International Events Awards 
+										</h3>
+										<p class="m-0">
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam sed diam nonummy nibh euismod tincidunt.
+										</p>
+									</div>
+								</div>
+								<!-- awaed-item - end -->
+
+								<!-- awaed-item - start -->
+								<div class="awaed-item">
+									<div class="awaed-content">
+										<h3 class="awaed-title">
+											<span class="awaed-date">aug 2015</span>
+											1st Place for Unique Events 2018
+										</h3>
+										<p class="m-0">
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam sed diam nonummy nibh euismod tincidunt.
+										</p>
+									</div>
+								</div>
+								<!-- awaed-item - end -->
+
+								<!-- awaed-item - start -->
+								<div class="awaed-item">
+									<div class="awaed-content">
+										<h3 class="awaed-title">
+											<span class="awaed-date">may 2014</span>
+											1st Winner Best New Years Events
+										</h3>
+										<p class="m-0">
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam sed diam nonummy nibh euismod tincidunt.
+										</p>
+									</div>
+								</div>
+								<!-- awaed-item - end -->
+
+								<!-- awaed-item - start -->
+								<div class="awaed-item">
+									<div class="awaed-content">
+										<h3 class="awaed-title">
+											<span class="awaed-date">dec 2013</span>
+											1st Place International Events Awards 
+										</h3>
+										<p class="m-0">
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam sed diam nonummy nibh euismod tincidunt.
+										</p>
+									</div>
+								</div>
+								<!-- awaed-item - end -->
+
+							</div>
+						</div>
+						<!-- awaed-item-area - end -->
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<!-- award-section - end-->
+
+
+
+
+
+    </about>
+	
+    <section id="service-section" class="service-section sec-ptb-100 ,bg-gray-light clearfix">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title mb-50 sr-fade1">
+                        <span class="line-style"></span>
+                        <small class="sub-title">why choose us</small>
+                        <h2 class="big-title">Harmoni <strong>Advantages</strong></h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="team-btn text-right sr-fade2">
+                        <a href="#!" class="custom-btn">meet the team</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-wrapper sr-fade1">
+                <ul>
+
+                    <li>
+                        <a href="#!">
+                            <span class="icon">
+                                <i class="flaticon-handshake"></i>
+                            </span>
+                            <strong class="service-title">friendly team</strong>
+                            <small class="service-sub-title">More than 200 teams</small>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!">
+                            <span class="icon">
+                                <i class="flaticon-cheers"></i>
+                            </span>
+                            <strong class="service-title">Unique Scenario</strong>
+                            <small class="service-sub-title">we thinking out of the box</small>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!">
+                            <span class="icon">
+                                <i class="flaticon-two-balloons"></i>
+                            </span>
+                            <strong class="service-title">perfect venues</strong>
+                            <small class="service-sub-title">perfect venues</small>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!">
+                            <span class="icon">
+                                <i class="flaticon-speech-bubble"></i>
+                            </span>
+                            <strong class="service-title">24/7 hours support</strong>
+                            <small class="service-sub-title">anitime anywhere</small>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!">
+                            <span class="icon">
+                                <i class="flaticon-clown-hat"></i>
+                            </span>
+                            <strong class="service-title">Unforgetable Times</strong>
+                            <small class="service-sub-title">More than 200 teams</small>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!">
+                            <span class="icon">
+                                <i class="flaticon-light-bulb"></i>
+                            </span>
+                            <strong class="service-title">Briliant Idea</strong>
+                            <small class="service-sub-title">We thinking out of the box</small>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!">
+                            <span class="icon">
+                                <i class="flaticon-event-date-and-time-symbol"></i>
+                            </span>
+                            <strong class="service-title">Unique Scenario</strong>
+                            <small class="service-sub-title">perfact venues</small>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!">
+                            <span class="icon">
+                                <i class="flaticon-group"></i>
+                            </span>
+                            <strong class="service-title">Best Management</strong>
+                            <small class="service-sub-title">anytime anywhere</small>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <!-- service-section - end
+     
+    ================================================== -->
+<!-- review section starts  -->
+<section class="reivew" id="review">
+    <h1 class="heading">client's <span>review</span></h1>
+
+    <div class="review-slider swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img src="https://img.freepik.com/premium-vector/best-performance-score-five-points_132971-43.jpg?ga=GA1.1.1154727759.1730902204&semt=ais_hybrid" alt="" />
+            <div class="user-info">
+              <h3>nayana</h3>
+              <span>happy customer</span>
+            </div>
+          </div>
+          <p> Bring people together, or turn your passion into a business. Harmoni gives you everything you need to host your best event yet.”
+                              
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            dolor dicta cum. Eos beatae eligendi, magni numquam nemo sed ut
+            corrupti, ipsam iure nisi unde et assumenda perspiciatis
+            voluptatibus nihil.
+          </p>
+        </div>
+        </section>
+<!---- event lisning---->
+<header><h1 class="heading"><span>Event</span>lisning---- </h1>
+</header>
+<div class="event4">
+<div class="containers">
+<div class="event">
+    <h2>Music Concert</h2>
+    <img src="https://jthemes.net/themes/html/harmony-event/assets/images/event/5.event-grid.jpg" alt="">
+    <p class="date-time">Date: 2024-12-25 | Time: 6:00 PM</p>
+    <p>Location: Downtown Arena</p>
+    <p>Join us for an amazing night filled with live music and entertainment!</p><a href="SERVICE.html" class="btn">book now</a>
+</div>
+<div class="event">
+    <h2>New year party</h2>
+    <img src="https://jthemes.net/themes/html/harmony-event/assets/images/event/6.event-grid.jpg" alt="">
+    <p class="date-time">Date: 2024-12-20 | Time: 11:00 AM</p>
+    <p>Location: City Art Gallery</p>
+    <p>Explore stunning artworks from talented artists around the globe.</p><a href="SERVICE.html" class="btn">book now</a>
+</div>
+<div class="event">
+    <h2>Envato author fun hiking</h2>
+    <img src="https://jthemes.net/themes/html/harmony-event/assets/images/event/7.event-grid.jpg" alt="">
+    <p class="date-time">Date: 2024-12-30 | Time: 7:00 AM</p>
+    <p>Location: Central Park</p>
+    <p>Participate in a run for a good cause and make a difference!</p><a href="SERVICE.html" class="btn">book now</a>
+</div>
+</div>
+<br>
+<div class="containers">
+ <div class="event">
+    <h2>Music Concert</h2>
+    <img src="https://jthemes.net/themes/html/harmony-event/assets/images/event/event-2.jpg" alt="" height="240px" width="300px">
+    
+    <p class="date-time">Date: 2024-12-25 | Time: 6:00 PM
+    <p>Location: Downtown Arena</p>
+    <p>Join us for an amazing night filled with live music and entertainment!</p><a href="SERVICE.html" class="btn">book now</a>
+</div>
+<div class="event">
+    <h2>bussiness conference</h2>
+    <img src="https://jthemes.net/themes/html/harmony-event/assets/images/gallery/4.image.jpg" alt="" height="240px" width="370px">
+    
+    ">
+    <p class="date-time">Date: 2024-12-20 | Time: 11:00 AM</p>
+    <p>Location: City Art Gallery</p>
+    <p>Explore stunning artworks from talented artists around the globe.</p><a href="SERVICE.html" class="btn">book now</a>
+</div>
+<div class="event">
+    <h2>Bussiness party</h2>
+    <img src="https://jthemes.net/themes/html/harmony-event/assets/images/event/event-5.jpg" alt="" height="250px" width="370px">
+    <p class="date-time">Date: 2024-12-30 | Time: 7:00 AM</p>
+    <p>Location: Central Park</p>
+    <p>Participate in a run for a good cause and make a difference!</p>
+    <a href="SERVICE.html" class="btn">book now</a>
+</div>
+
+</div>
+</div>
+
+<footer>
+<p> Events</p>
+</footer>
+<!--event end-->
+    
+             
+
+        
+
+  *<!-- contact section starts  
+  <section class="contact" id="contact">
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <form action="">
+      <div class="inputBox">
+        <input type="text" placeholder="name" />
+        <input type="email" placeholder="email" />
+      </div>
+      <div class="inputBox">
+        <input type="tel" placeholder="number" />
+        <input type="text" placeholder="subject" />
+      </div>
+      <textarea
+        name=""
+        placeholder="message"
+        id=""
+        cols="30"
+        rows="10"
+      ></textarea>
+      <input type="submit" value="send message" class="btn" />
+    </form>
+  </section>----->
+
+  <!-- footer section starts  -->
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>EVENT PLANNER</h3>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> bangalore </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> hyderabad </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> delhi </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> kolkata </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> chennai </a>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> price </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> reivew </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+        <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+        <a href="#"> <i class="fas fa-envelope"></i> kanasu@gmail.com </a>
+        <a href="#"> <i class="fas fa-envelope"></i> kanasuind@gmail.com </a>
+        <a href="#">
+          <i class="fas fa-map-marker-alt"></i> bangalore, india - 560054
+        </a>
+      </div>
+
+      <div class="box">
+        <h3>follow us</h3>
+        <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+        <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+        <a href="#"> <i class="fab fa-linkedin-in"></i> linkedin </a>
+      </div>
+    </div>
+
+    <div class="credit">
+      created by <span>Tivotal</span> | all rights reserved
+    </div>
+  </section>
+
+  <!-- theme toggler  -->
+  <div class="theme-toggler">
+    <div class="toggle-btn">
+      <i class="fas fa-cog"></i>
+    </div>
+
+    <h3>choose color</h3>
+
+    <div class="buttons">
+      <div class="theme-btn" style="background: #ccff33"></div>
+      <div class="theme-btn" style="background: #d35400"></div>
+      <div class="theme-btn" style="background: #f39c12"></div>
+      <div class="theme-btn" style="background: #1abc9c"></div>
+      <div class="theme-btn" style="background: #3498db"></div>
+      <div class="theme-btn" style="background: #9b59b6"></div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!--JS file-->
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+    
+         
+   
+
